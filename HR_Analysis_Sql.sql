@@ -180,7 +180,7 @@ FROM hr_insights
 GROUP BY PromotionNeeded;
 
 select * from hr_insights;
-
+-- Change the column names to a more readable names
 ALTER TABLE hr_insights
 CHANGE COLUMN EmpID `Emp ID` VARCHAR(255),
 CHANGE COLUMN Age `Age` INT,
